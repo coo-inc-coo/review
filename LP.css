@@ -1,0 +1,132 @@
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 18px;
+  color: #637988;
+}
+
+.red{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.media{
+  padding: 15px;
+  background-color: #ff7f50;
+  font-size: 24px;
+}
+
+.continer{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*.first-content img{
+  display: block;
+}*/
+
+.title{
+  border-left: double 10px black;
+  border-bottom: double 10px black;
+  text-align: left;
+}
+
+.title h2{
+  line-height: 30px;
+  margin-left: 15px;
+}
+
+.day{
+  text-align: left;
+  /*border-top: dashed 1px black;*/
+  border-bottom: dashed 1px black;
+}
+
+.list{
+  text-align: left;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.comment-box{
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.comment-title{
+  border-bottom: dashed 2px black;
+  margin-bottom: 20px;
+}
+
+.foot{
+  height: 50px;
+  border-top: dashed 1px black;
+  text-align: center;
+}
+
+/*ryosuke*/
+.marker_yellow_bold{
+  background:linear-gradient(transparent 75%, #ffdc00 75%);
+  font-weight:bold;
+  font-size: 30px;
+}
+
+.marker_yellow_hoso {
+  background: linear-gradient(transparent 60%, #ffff66 60%);
+  font-weight:bold;
+}
+
+.under {
+  border-bottom: double 6px #87CEFA;
+  font-weight:bold;
+  font-size: 18px;
+}
+
+.single_under{
+   text-decoration : underline;
+   font-weight: bold;
+}
+
+.list{
+  font-weight: bold;
+}
+
+.red_title{
+  font-weight: bold;
+  color: red;
+}
+
+@media (max-width: 670px) {
+  h1{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 670px) {
+  h2{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 670px) {
+  p{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  .list{
+    font-size: 10px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 670px) {
+  .img{
+    max-width: 100%;
+    height: auto;
+  }
+}
